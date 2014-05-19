@@ -1,3 +1,3 @@
-node 'wireblog185' {
+node 'wireblog185', 'promote' {
 	include puppet
 }
