@@ -1,6 +1,6 @@
 node 'wireblog185', 'promote' {
-  package { "postfix":
-    ensure   => latest,
+  package { "firefox":
+    ensure   => absent,
     provider => yum,
   }
 }
